@@ -1,0 +1,1095 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"addS",
+				"addShotAfterBtnn"
+			],
+			[
+				"scro",
+				"scrollTarget"
+			],
+			[
+				"newShot",
+				"newShotIndexTarget"
+			],
+			[
+				"newShotInd",
+				"newShotIndexTarget"
+			],
+			[
+				"newS",
+				"newShotIndex"
+			],
+			[
+				"por",
+				"projid"
+			],
+			[
+				"newSho",
+				"newShotIndex"
+			],
+			[
+				"newSh",
+				"newShotIndex"
+			],
+			[
+				"newShotI",
+				"newShotIndexTarget"
+			],
+			[
+				"confirm",
+				"confirmNewProjectBtn"
+			],
+			[
+				"proj",
+				"projname"
+			],
+			[
+				"delete",
+				"deleteProjectID"
+			],
+			[
+				"pro",
+				"projid"
+			],
+			[
+				"newPr",
+				"newProjectTitle"
+			],
+			[
+				"newPro",
+				"newProjectForm"
+			],
+			[
+				"newProj",
+				"newProjectTitle"
+			],
+			[
+				"deleteP",
+				"deleteProjectModal"
+			],
+			[
+				"deletePro",
+				"deleteProjectID"
+			],
+			[
+				"modals",
+				"modalsFile"
+			],
+			[
+				"uplo",
+				"uploadedFile"
+			],
+			[
+				"edit",
+				"editing-notes"
+			],
+			[
+				"blur",
+				"blurEvent"
+			],
+			[
+				"out",
+				"outFile"
+			],
+			[
+				"fra",
+				"frameHeight"
+			],
+			[
+				"num",
+				"numFrames"
+			],
+			[
+				"frame",
+				"frameNum"
+			],
+			[
+				"Tree",
+				"treeItems"
+			],
+			[
+				"labelTy",
+				"labelTypes"
+			],
+			[
+				"labelT",
+				"labelTypes"
+			],
+			[
+				"is",
+				"isDocument"
+			],
+			[
+				"paren",
+				"parentName"
+			],
+			[
+				"parent",
+				"parentName"
+			],
+			[
+				"win32",
+				"win32serviceutil"
+			],
+			[
+				"exi",
+				"exit"
+			],
+			[
+				"win32se",
+				"win32serviceutil"
+			],
+			[
+				"ver",
+				"ver-id"
+			],
+			[
+				"Cu",
+				"cursor"
+			],
+			[
+				"child",
+				"children"
+			],
+			[
+				"deleteProj",
+				"deleteProjBtn"
+			],
+			[
+				"deleteCat",
+				"deleteCategory"
+			],
+			[
+				"coun",
+				"countCat"
+			],
+			[
+				"count",
+				"countCat"
+			],
+			[
+				"respo",
+				"responseText"
+			],
+			[
+				"resp",
+				"responseText"
+			],
+			[
+				"jq",
+				"jqXHR"
+			],
+			[
+				"text",
+				"textStatus"
+			],
+			[
+				"opt",
+				"option	Tag"
+			],
+			[
+				"verID",
+				"verID"
+			],
+			[
+				"__",
+				"__init__"
+			],
+			[
+				"chil",
+				"children"
+			],
+			[
+				"bui",
+				"buildTreeStructure"
+			],
+			[
+				"treeI",
+				"TreeItem"
+			],
+			[
+				"tree",
+				"treeItems"
+			],
+			[
+				"proje",
+				"projectName"
+			],
+			[
+				"cato",
+				"categories"
+			],
+			[
+				"cat",
+				"category"
+			],
+			[
+				"categ",
+				"categories"
+			],
+			[
+				"catego",
+				"category"
+			],
+			[
+				"catr",
+				"category"
+			],
+			[
+				"admin",
+				"adminPassword"
+			],
+			[
+				"error",
+				"error_page_404"
+			],
+			[
+				"get",
+				"get_ha1"
+			],
+			[
+				"aut",
+				"auth_digest"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"beat",
+				"beatFrequency"
+			],
+			[
+				"filter",
+				"filter2D"
+			],
+			[
+				"el",
+				"elseif	elseif"
+			],
+			[
+				"signal",
+				"signalPeriod"
+			],
+			[
+				"dom",
+				"domainDepth-focalDepth"
+			],
+			[
+				"down",
+				"downloadedBytes"
+			],
+			[
+				"update",
+				"updateStatus"
+			],
+			[
+				"set_",
+				"set_timeout"
+			],
+			[
+				"chu",
+				"chunk_report"
+			],
+			[
+				"chunk",
+				"chunk_read"
+			],
+			[
+				"ch",
+				"chunk_size"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "StoryTimeModules/Shots.py",
+			"settings":
+			{
+				"buffer_size": 4720,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "template/js/initialize-shots.js",
+			"settings":
+			{
+				"buffer_size": 3903,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "template/js/edit-shots.js",
+			"settings":
+			{
+				"buffer_size": 4606,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "template/modals/newShot.html",
+			"settings":
+			{
+				"buffer_size": 4014,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "Packages/LaTeXTools/LaTeX.sublime-build",
+	"command_palette":
+	{
+		"height": 392.0,
+		"selected_items":
+		[
+			[
+				"table",
+				"Table Editor: Enable for current view"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"word",
+				"Word Wrap: Toggle"
+			],
+			[
+				"wor",
+				"Word Wrap: Toggle"
+			],
+			[
+				"pretty",
+				"HTMLPrettify"
+			],
+			[
+				"pep",
+				"User: Python PEP8 Autoformat"
+			],
+			[
+				"pep8",
+				"User: Python PEP8 Autoformat"
+			],
+			[
+				"format",
+				"User: Python PEP8 Autoformat"
+			],
+			[
+				"hex",
+				"Hex Viewer: Toggle Hex View"
+			],
+			[
+				"copy",
+				"SublimeHighlight: copy to clipboard as RTF"
+			],
+			[
+				"copy to",
+				"SublimeHighlight: copy to clipboard as HTML"
+			],
+			[
+				"c+",
+				"Set Syntax: C++"
+			],
+			[
+				"pastry",
+				"Text Pastry: Menu"
+			],
+			[
+				"pastr",
+				"Text Pastry: Command Line"
+			],
+			[
+				"pasty",
+				"Text Pastry: Command Line"
+			],
+			[
+				"enable",
+				"Package Control: Enable Package"
+			],
+			[
+				"disa",
+				"Package Control: Disable Package"
+			],
+			[
+				"git gutt",
+				"GitGutter: Show Comparing Against"
+			],
+			[
+				"git gu",
+				"GitGutter: Compare Against Commit"
+			],
+			[
+				"git stat",
+				"Git: Status"
+			],
+			[
+				"disable",
+				"Package Control: Disable Package"
+			],
+			[
+				"github",
+				"Github: Open File"
+			],
+			[
+				"install ",
+				"Package Control: Install Package"
+			],
+			[
+				"past",
+				"Text Pastry: Command Line"
+			],
+			[
+				"orig des",
+				"Origami: Destroy Current Pane"
+			],
+			[
+				"latextool",
+				"LaTeXTools: Reconfigure and migrate settings"
+			],
+			[
+				"origa",
+				"Origami: Create Pane on the Right"
+			],
+			[
+				"matl",
+				"Set Syntax: MATLAB"
+			],
+			[
+				"thes",
+				"Thesaurus search"
+			],
+			[
+				"thesu",
+				"Thesaurus search"
+			],
+			[
+				"anno",
+				"Snippet: annote"
+			],
+			[
+				"pane",
+				"Origami: Create Pane on the Right"
+			],
+			[
+				"sftp",
+				"SFTP: Browse Server…"
+			]
+		],
+		"width": 536.0
+	},
+	"console":
+	{
+		"height": 139.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/Users/Kenton/Programming/DocBot/protohand.py",
+		"/C/Users/Kenton/Programming/StoryTime/template/js/navbar.js",
+		"/C/Users/Kenton/Programming/StoryTime/template/index.html",
+		"/C/Users/Kenton/Programming/StoryTime/template/js/edit-shots.js",
+		"/C/Users/Kenton/Programming/StoryTime/StoryTimeModules/Upload.py",
+		"/C/Users/Kenton/Programming/StoryTime/template/selectProject.html",
+		"/C/Users/Kenton/Programming/StoryTime/StoryTimeModules/Projects.py",
+		"/C/Users/Kenton/Programming/StoryTime/template/modals/newShot.html",
+		"/C/Users/Kenton/Programming/StoryTime/template/js/initialize-shots.js",
+		"/C/Users/Kenton/Programming/StoryTime/StoryTime.py",
+		"/C/Users/Kenton/Programming/StoryTime/template/loggedOut.html",
+		"/C/Users/Kenton/Programming/DocBot/docbot.py",
+		"/C/Users/Kenton/Programming/StoryTime/template/less/styles.less",
+		"/C/Users/Kenton/Documents/Rear End July 2014/Other party insurance info.txt",
+		"/C/Users/Kenton/Programming/StoryTime/template/less/custom/main.less",
+		"/C/Users/Kenton/Programming/StoryTime/StoryTimeModules/Shots.py",
+		"/C/Users/Kenton/Programming/StoryTime/template/js/jquery.fileupload.js",
+		"/C/Users/Kenton/Programming/StoryTime/template/js/sortable-shots.js",
+		"/C/Users/Kenton/Programming/StoryTime/template/js/initialize-project.js",
+		"/C/Users/Kenton/Programming/StoryTime/template/modals.html",
+		"/C/Users/Kenton/AppData/Roaming/Sublime Text 3/Packages/User/Default (Windows).sublime-keymap",
+		"/C/Users/Kenton/Programming/StoryTime/template/img/000002.less",
+		"/C/Users/Kenton/Programming/StoryTime/template/img/000001.less",
+		"/C/Users/Kenton/Programming/DocBot/klog.txt",
+		"/C/Users/Kenton/Programming/StoryTime/template/shot-item.html",
+		"/C/Users/Kenton/Programming/StoryTime/MultiThreadSQLite.py",
+		"/C/Users/Kenton/AppData/Local/Temp/7zE904E.tmp/screen.css",
+		"/C/Users/Kenton/Programming/DocBot/template/index.html",
+		"/C/Users/Kenton/Programming/StoryTime/StoryTimeModules/__init__.py",
+		"/C/Users/Kenton/Programming/LEDSquare/binary description.md",
+		"/C/Users/Kenton/Programming/LEDSquare/PacMan.gif.c",
+		"/C/Users/Kenton/Programming/LEDSquare/convertgif.py",
+		"/C/Users/Kenton/AppData/Roaming/Sublime Text 3/Packages/Table Editor/README.md",
+		"/C/Users/Kenton/Programming/DocBot/template/less/bootstrap-tree/bootstrap-tree.less",
+		"/C/Users/Kenton/Programming/DocBot/template/less/styles.less",
+		"/C/Users/Kenton/Documents/1-855-405-5510  vin number",
+		"/C/Users/Kenton/Programming/DocBot/setupdb.py",
+		"/C/Users/Kenton/Programming/DocBot/log.txt",
+		"/C/Users/Kenton/Programming/DocMan/docman.py",
+		"/C/Users/Kenton/Programming/DocBot/template/js/bootstrap-datepicker.js",
+		"/C/Windows/System32/drivers/etc/hosts",
+		"/C/Users/Kenton/Programming/DocBot/template/less/bootstrap/buttons.less",
+		"/C/Users/Kenton/Programming/DocBot/template/less/bootstrap-tree/compatibility.less",
+		"/C/Users/Kenton/Programming/DocBot/template/less/theme/main.less",
+		"/C/Users/Kenton/Programming/DocBot/template/less/bootstrap/mixins/vendor-prefixes.less",
+		"/C/Users/Kenton/Programming/DocBot/people.db",
+		"/C/Users/Kenton/Programming/DocBot/template/less/bootstrap-tree/style.less",
+		"/C/Users/Kenton/Programming/DocBot/template/serve.py",
+		"/C/Users/Kenton/Programming/CherryPyTuts/tut01.py",
+		"/C/Users/Kenton/Programming/DocBot/template/built/index.html",
+		"/C/Users/Kenton/Programming/DocBot/template/static/index.html",
+		"/C/Users/Kenton/Programming/DocBot/template/watch.py",
+		"/C/Users/Kenton/Programming/DocBot/template/src/less/styles.less",
+		"/C/Users/Kenton/Programming/DocBot/template/build.py",
+		"/C/Users/Kenton/Programming/CherryPyTuts/tut07.py",
+		"/C/Users/Kenton/Programming/CherryPyTuts/tut08.py",
+		"/C/Users/Kenton/Programming/DocBot/template/build.bat",
+		"/C/Users/Kenton/Programming/DocBot/template/html/index.html",
+		"/C/Users/Kenton/Programming/DocBot/template/src/less/styles.css",
+		"/C/Users/Kenton/Programming/DocBot/template/src/bower_components/bootstrap/index.html",
+		"/C/Users/Kenton/Programming/CherryPyTuts/tut02.py",
+		"/C/Users/Kenton/Programming/CherryPyTuts/tut03.py",
+		"/C/Users/Kenton/Programming/CherryPyTuts/tut04.py",
+		"/C/Users/Kenton/Programming/CherryPyTuts/tut05.py",
+		"/C/Users/Kenton/Programming/CherryPyTuts/public/css/style.css",
+		"/C/Users/Kenton/Programming/CherryPyTuts/tut06.py",
+		"/C/Users/Kenton/Programming/CherryPyTuts/public/index.html",
+		"/C/Users/Kenton/Programming/CherryPyTuts/tut09.py",
+		"/C/Users/Kenton/Programming/DocBot/template/src/bower_components/bootstrap/README.md",
+		"/C/Users/Kenton/Programming/CherryPyTuts/my.db",
+		"/C/Users/Kenton/Programming/CherryPyTuts/index.html",
+		"/C/Users/Kenton/Downloads/18aa2cd0-7fbf-48bc-8ab0-d8818d22024c - Copy/437/1.save.upload",
+		"/C/Users/Kenton/Downloads/18aa2cd0-7fbf-48bc-8ab0-d8818d22024c - Copy/437/2.save.upload",
+		"/C/Program Files (x86)/Ubisoft/Ubisoft Game Launcher/savegames/18aa2cd0-7fbf-48bc-8ab0-d8818d22024c/437/2.save",
+		"/C/Program Files (x86)/Ubisoft/Ubisoft Game Launcher/savegames/18aa2cd0-7fbf-48bc-8ab0-d8818d22024c/437/3.save",
+		"/C/Program Files (x86)/Ubisoft/Ubisoft Game Launcher/savegames/18aa2cd0-7fbf-48bc-8ab0-d8818d22024c/437/saves.ini",
+		"/C/Program Files (x86)/Ubisoft/Ubisoft Game Launcher/savegames/18aa2cd0-7fbf-48bc-8ab0-d8818d22024c/437/1.save",
+		"/C/Users/Kenton/Downloads/18aa2cd0-7fbf-48bc-8ab0-d8818d22024c - Copy/437/1.save",
+		"/C/Users/Kenton/Downloads/18aa2cd0-7fbf-48bc-8ab0-d8818d22024c - Copy/437/2.save",
+		"/C/Users/Kenton/Programming/Whistle2Notes Matlab/w2n.m",
+		"/C/Program Files (x86)/BASS.NET/v4.0/Bass.Net.xml",
+		"/Z/Backup/Thesis/latex/frontback/nomenclature.tex",
+		"/Z/Backup/Thesis/latex/chapters/litreview.tex",
+		"/Z/Backup/Thesis/latex/chapters/quasi-static.tex",
+		"/Z/Backup/Thesis/latex/chapters/conclusion.tex",
+		"/Z/Backup/Thesis/latex/chapters/shear.tex",
+		"/Z/Backup/Thesis/latex/thesis.tex",
+		"/Z/Backup/Thesis/latex/chapters/arfi.tex",
+		"/Z/Backup/Thesis/latex/frontback/abstract.tex",
+		"/C/Users/Kenton/AppData/Roaming/Sublime Text 3/Packages/User/LaTeXTools.sublime-settings",
+		"/C/Users/Kenton/Documents/Thesis/defense/defense.tex",
+		"/C/Users/Kenton/Documents/Thesis/latex/chapters/litreview.tex",
+		"/C/Users/Kenton/Documents/Thesis/latex/frontback/abstract.tex",
+		"/C/Users/Kenton/Documents/Thesis/latex/thesis.tex",
+		"/C/Users/Kenton/Documents/Thesis/latex/pdfcolorsplit.py",
+		"/C/Users/Kenton/Documents/Thesis/latex/frontback/nomenclature.tex",
+		"/C/Users/Kenton/Documents/Thesis/latex/chapters/introduction.tex",
+		"/C/Users/Kenton/Documents/USEbrella/Publications/Team Meeting Spring 2014/poster.tex",
+		"/C/Users/Kenton/Documents/Thesis/latex/chapters/quasi-static.tex",
+		"/C/Users/Kenton/Documents/Thesis/latex/chapters/arfi.tex",
+		"/C/Users/Kenton/Documents/Thesis/latex/chapters/shear.tex",
+		"/C/Users/Kenton/Documents/Thesis/latex/chapters/conclusion.tex",
+		"/C/Users/Kenton/Documents/Thesis/latex/appendices/datatables.tex",
+		"/C/Users/Kenton/Documents/Thesis/latex/appendices/sourcecode.tex",
+		"/C/Users/Kenton/Documents/Thesis/latex/appendices/experimental.tex",
+		"/C/Users/Kenton/Documents/Thesis/latex/assets/sourcecode/quasi2d/convolvedBMode.m",
+		"/C/Users/Kenton/Documents/Thesis/latex/assets/sourcecode/quasi2d/compression.m",
+		"/C/Users/Kenton/Documents/Thesis/latex/assets/sourcecode/arfi/relaxation.m",
+		"/C/Users/Kenton/Documents/Thesis/latex/test/test3.tex",
+		"/C/Users/Kenton/Documents/Thesis/latex/frontback/titlepage.tex",
+		"/C/Users/Kenton/Documents/Thesis/latex/frontback/dedication.tex",
+		"/C/Users/Kenton/Documents/Thesis/latex/frontback/acknowledgements.tex",
+		"/C/Users/Kenton/Documents/Thesis/latex/test/test4.tex",
+		"/C/Users/Kenton/Documents/Thesis/latex/assets/arfi/data/arfi_radius_mse.dat",
+		"/C/Users/Kenton/Documents/Thesis/latex/assets/arfi/data/arfi_human_radius_mse.dat",
+		"/C/Users/Kenton/Documents/Thesis/latex/assets/shear/data/shear_radius_mse.dat",
+		"/C/Users/Kenton/Documents/Thesis/latex/assets/insets/spherical.tex",
+		"/C/Users/Kenton/Documents/Thesis/latex/assets/insets/blurred.tex",
+		"/C/Users/Kenton/Documents/Thesis/latex/assets/insets/clustered.tex",
+		"/C/Users/Kenton/Documents/Thesis/latex/assets/insets/human_width.tex",
+		"/C/Users/Kenton/Documents/Thesis/latex/assets/insets/human.tex",
+		"/C/Users/Kenton/Documents/Thesis/latex/assets/shear/data/shear_human_radius_mse.dat",
+		"/C/Users/Kenton/Documents/Thesis/latex/assets/insets/offset.tex",
+		"/C/Users/Kenton/Documents/Thesis/latex/assets/insets/colocated_separation.tex",
+		"/C/Users/Kenton/Documents/Thesis/latex/assets/insets/number_cycles.tex",
+		"/C/Users/Kenton/Documents/Thesis/latex/assets/insets/human_depth.tex",
+		"/C/Users/Kenton/Documents/Thesis/latex/assets/insets/source_pressure.tex",
+		"/C/Users/Kenton/Documents/Thesis/latex/assets/insets/spherical_radius.tex"
+	],
+	"find":
+	{
+		"height": 34.0
+	},
+	"find_in_files":
+	{
+		"height": 90.0,
+		"where_history":
+		[
+			"C:\\Users\\Kenton\\Programming\\DocBot\\template\\less\\bootstrap",
+			"C:\\Users\\Kenton\\Programming\\DocBot\\template\\less\\bootstrap\\mixins",
+			"C:\\Users\\Kenton\\Programming\\DocBot\\template\\less\\bootstrap",
+			"Z:\\Backup\\Thesis\\latex",
+			"<open files>",
+			"C:\\Users\\Kenton\\Documents\\Thesis\\latex",
+			"C:\\texlive\\2013\\",
+			"C:\\texlive\\2013\\texmf-dist\\tex\\latex",
+			"C:\\Users\\Kenton\\Documents\\Thesis\\latex",
+			"C:\\Users\\Kenton\\Documents\\Thesis\\latex\\chapters"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"deleteShotBtnn",
+			"addShotAfterBtnn",
+			"default",
+			"sm",
+			"newShotID",
+			"newShotTitle",
+			"newShotImage",
+			"newShotTitle",
+			"newShotCancelBtn",
+			"newShotTitle",
+			"newShotForm",
+			"newShotModal",
+			"deleteDocVerID",
+			"deleteDocModal",
+			"int(projid)",
+			"for",
+			"uploadedFile",
+			"Title",
+			"newShotTitle",
+			"formdata",
+			"modalFile",
+			"uploadedFile",
+			"newShotNotes",
+			"app",
+			"Shots",
+			"newDocLabels",
+			"newDocID",
+			"newDocumentModal",
+			"index",
+			"order",
+			"index",
+			"order by",
+			"options.",
+			"dataType",
+			"shot-notes",
+			"id",
+			"editedText",
+			"-url",
+			"',\n",
+			"Posts",
+			"DocumentManager",
+			"default",
+			"/button",
+			"button type=\"button\" ",
+			"MultiThreadOK",
+			"expectedSize",
+			"s[i]",
+			"insert",
+			"histNewDocVersionBtn",
+			"								// show the success\n								$('#alertModalBody').html(data);\n								$('#alertModal').modal('show');",
+			"\"primary\", \"success\", \"info\", \"warning\", \"danger\", \"default\"",
+			"order by",
+			"parent=",
+			"order by",
+			"projname, catname",
+			"catName",
+			"\\",
+			"/",
+			" ",
+			"\\",
+			"DocBot",
+			"logging.de",
+			"sql.",
+			" SQL",
+			" sql",
+			" SQL",
+			" sql",
+			" SQL",
+			" sql",
+			"TreeStructure",
+			"\\",
+			"									\n",
+			"histNewDocVer",
+			"alert",
+			"datepicker",
+			"blur",
+			"val",
+			"histNewDocVersionBtn",
+			"#newDocVerID",
+			"form",
+			"searchForm",
+			"deleteDocModal",
+			"projID",
+			"ProjectManager",
+			"deleteCategoryModal",
+			"checkCategoryDelete",
+			"deleteCategory",
+			"deleteCategoryModal",
+			"deleteCatBtn",
+			"deleteCatWarning",
+			"countCat",
+			"delteProject",
+			"deleteCatWarning",
+			"deleteCategory",
+			"deleteCategoryModal",
+			"countCat",
+			"category",
+			"catid",
+			"catID",
+			"verid",
+			"verID",
+			"deleteDocModal",
+			"deleteCatBtn",
+			"changeDocModal",
+			"changeDocCategory",
+			"deleteDocModal",
+			"catid",
+			"name",
+			"catid",
+			"newCatName",
+			"newCategoryModal",
+			"newDocumentModal",
+			"newDocCategory",
+			"newDocID",
+			"newDocPath",
+			"newDocumentModal",
+			"YYYY",
+			"YY",
+			"YYYY",
+			"YY",
+			"newDocID",
+			"@font-size-base",
+			"font-size",
+			"size",
+			"bootstrap-tree",
+			"newDocAuthors",
+			"newDocumentModalLabel",
+			"  "
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"	",
+			"'",
+			"	",
+			"Experimental Results, Ideal Unary Mapping",
+			"\\varepsilon_{rel,meas}",
+			"E_{rel,nom}",
+			"E_{rel,meas}",
+			"	",
+			"unstiff",
+			"soft",
+			"least stiff",
+			"\\left|v\\right|_{max}",
+			"\\left|d\\right|_{max}",
+			"w_{active}",
+			"Nominal Stiffness Ratio, $E_{nom}$",
+			"E_{nom}",
+			"Nominal Stiffness Ratio, $E_{nom}$",
+			"analysing",
+			"MRI-acquired",
+			"I_{SPPA}",
+			"I_{SPTA}",
+			"pseudo-spectral",
+			"height=2.5in",
+			"	",
+			"    ",
+			"\\percent\\ ",
+			"subsec:shear_results",
+			"	",
+			"_colour",
+			"\\percent",
+			"{\\cm}",
+			"{\\mm}",
+			"(\\si{\\cm})",
+			"{\\MHz}",
+			"(\\si{mm})",
+			"{\\metre\\per\\second}",
+			"\\SI",
+			"{assets/quasistatic/insets/",
+			"{assets/quasistatic/elastograms/",
+			"{assets/quasistatic/data/",
+			"\\SI",
+			"\\includegraphics{assets/quasistatic/insets/",
+			"{assets/quasistatic/data/",
+			"\\SI",
+			"ColourPlotCycle",
+			"\\SI",
+			"\\percent",
+			"{\\mm}",
+			"{\\cm}",
+			"{\\MHz}",
+			"\\si{\\mm}",
+			"\\si{\\MHz}",
+			"\\si{\\cm}",
+			"\\percent",
+			"\\%",
+			"\\percent",
+			"\\SI",
+			"bony",
+			"%\\lipsum",
+			"	",
+			"ColourPlotCycle"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "StoryTimeModules/Shots.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4720,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3419,
+								3419
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 1375.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "template/js/initialize-shots.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3903,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1479,
+								1479
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "template/js/edit-shots.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4606,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3989,
+								3989
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 1099.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "template/modals/newShot.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4014,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3830,
+								3830
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 900.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 140.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.hex_viewer_inspector":
+	{
+		"height": 100.0
+	},
+	"output.sftp":
+	{
+		"height": 0.0
+	},
+	"project": "StoryTime.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"assets/arfi/data/freq_force_width4.dat",
+				"assets/arfi/data/freq_force_width4.dat"
+			],
+			[
+				"assets/arfi/data/depth_isppa_freq1.dat",
+				"assets/arfi/data/depth_isppa_freq1.dat"
+			],
+			[
+				"assets/arfi/data/focal_force_depth_p5.dat",
+				"assets/arfi/data/focal_force_depth_p5.dat"
+			],
+			[
+				"assets/arfi/data/focal_force_depth_p4.dat",
+				"assets/arfi/data/focal_force_depth_p4.dat"
+			],
+			[
+				"assets/arfi/data/pulse_cycles.dat",
+				"assets/arfi/data/pulse_cycles.dat"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 272.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

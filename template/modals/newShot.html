@@ -1,0 +1,119 @@
+<!-- New shot modal -->
+<div class="modal fade" id="newShotModal" tabindex="-1" role="dialog" aria-labelledby="newShotModalLabel" aria-hidden="true">
+	<div class="modal-dialog">
+		<div class="modal-content">
+			<div class="modal-header">
+				<button type="button" class="close" id="newShotCloseButton" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+				<h4 class="modal-title" id="newShotModalLabel">New Shot</h4>
+			</div>
+			<div class="modal-body">
+				<form class="form-horizontal" role="form" id="newShotForm">
+					<div class="form-group">
+						<label for="newShotTitle" class="col-sm-4 control-label">Shot Title</label>
+						<div class="col-sm-8">
+							<input type="text" class="form-control" id="newShotTitle" placeholder="Opening scene">
+						</div>
+					</div>
+					<div class="form-group">
+						<label for="newShotImage" class="col-sm-4 control-label">Shot Image</label>
+						<div class="col-sm-8">
+							<input id="newShotImage" class="form-control" type="file" name="newShotImage" accept="image/*">
+						</div>
+					</div>
+					<div class="form-group">
+						<label for="newShotNotes" class="col-sm-4 control-label">Shot Notes</label>
+						<div class="col-sm-8">
+							<textarea class="form-control" id="newShotNotes" placeholder="It was a dark and stormy night.."></textarea>
+							<p class="help-block"><a href="http://daringfireball.net/projects/markdown/basics">Markdown</a> syntax is accepted here.</p>
+						</div>
+					</div>
+					<input type="hidden" id="newShotProject" value="1" />
+					<input type="hidden" id="newShotIndex" value="-1" />
+					<input type="hidden" id="newShotIndexTarget" value="after" />
+				</form>
+			</div>
+			<div class="modal-footer">
+				<button type="button" class="btn btn-primary" data-dismiss="modal" id="newShotCancelBtn">Cancel</button>
+				<button type="button" class="btn btn-success" id="newShotAddBtn">Add Shot</button>
+			</div>
+		</div>
+	</div>
+</div>
+<script>
+	jQuery(function($) {
+		var uploadFile;
+		$('#newShotImage').on('change', function(e) {
+			uploadFile = event.target.files[0];
+		});
+
+		$('#newShotAddBtn').click(function() {
+			$('#newShotForm').submit();
+		});
+
+		$('#newShotForm').submit(function(e) {
+			e.stopPropagation();
+			e.preventDefault();
+
+			// make sure the form is filled in
+			if(typeof(String.prototype.trim) === "undefined") {
+				String.prototype.trim = function() {
+					return String(this).replace(/^\s+|\s+$/g, '');
+				};
+			}
+
+			if($('#newShotTitle').val().trim() == "") {
+				$('#newShotTitle').parent().parent().addClass("has-error");
+				return;
+			}
+			else {
+				$('#newShotTitle').parent().parent().removeClass("has-error");
+			}
+
+			if($('#newShotImage').val().trim() == "") {
+				$('#newShotImage').parent().parent().addClass("has-error");
+				return;
+			}
+			else {
+				$('#newShotImage').parent().parent().removeClass("has-error");
+			}
+
+			if($('#newShotNotes').val().trim() == "") {
+				$('#newShotNotes').parent().parent().addClass("has-error");
+				return;
+			}
+			else {
+				$('#newShotNotes').parent().parent().removeClass("has-error");
+			}
+
+			// start spinner?
+
+			var data = new FormData();
+			data.append('newShotTitle', $('#newShotTitle').val());
+			data.append('newShotImage', uploadFile);
+			data.append('newShotNotes', $('#newShotNotes').val());
+			data.append('newShotProject', $('#newShotProject').val());
+			data.append('newShotIndex', $('#newShotIndex').val());
+			data.append('newShotIndexTarget', $('#newShotIndexTarget').val());
+
+			$.ajax({
+				url: '/shots',
+				type: 'PUT',
+				data: data,
+				cache: false,
+				dataType: 'json',
+				processData: false,
+				contentType: false,
+				success: function(data, textStatus, jqXHR) {
+					//window.location = '/';
+					$('#newShotModal').modal('hide');
+					$('#storyBoardList').html('');
+					initializeShots(data.id);
+				},
+				error: function(data, textStatus, errorThrown) {
+					alert("error, see console");
+					console.log(data);
+				}
+			})
+		});
+	});
+</script>

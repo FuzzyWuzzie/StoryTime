@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>StoryTime - Select Project</title>
+
+		<!-- Bootstrap -->
+		<link href="css/styles.css" rel="stylesheet">
+
+		<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+		<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+		<!--[if lt IE 9]>
+			<script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+			<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+		<![endif]-->
+	</head>
+
+	<body>
+		<!-- Delete document modal -->
+		<div class="modal fade" id="deleteProjectModal" tabindex="-1" role="dialog" aria-labelledby="deleteProjectModalLabel" aria-hidden="true">
+			<div class="modal-dialog">
+				<div class="modal-content">
+					<div class="modal-header">
+						<button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+						<h4 class="modal-title" id="deleteProjectModalLabel">Delete Project</h4>
+					</div>
+					<div class="modal-body">
+						<form class="form-horizontal" role="form" id="deleteProjectForm">
+							<p class="text-danger">Are you absolutely sure you want to delete this project? This cannot be undone and will delete the entire project!</p>
+							<input type="hidden" id="deleteProjectID" value="" />
+						</form>
+					</div>
+					<div class="modal-footer">
+						<button type="button" class="btn btn-primary" data-dismiss="modal">Cancel</button>
+						<button type="button" class="btn btn-danger" id="confirmDeleteBtn">Yes, delete it!</button>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- New project modal -->
+		<div class="modal fade" id="newProjectModal" tabindex="-1" role="dialog" aria-labelledby="newProjectModalLabel" aria-hidden="true">
+			<div class="modal-dialog">
+				<div class="modal-content">
+					<div class="modal-header">
+						<button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+						<h4 class="modal-title" id="newProjectModalLabel">New Project</h4>
+					</div>
+					<div class="modal-body">
+						<form class="form-horizontal" role="form" id="newProjectForm">
+							<div class="form-group">
+								<label for="newProjectTitle" class="col-sm-4 control-label">Project Title</label>
+								<div class="col-sm-8">
+									<input type="text" class="form-control" id="newProjectTitle" placeholder="My grand project">
+								</div>
+							</div>
+						</form>
+					</div>
+					<div class="modal-footer">
+						<button type="button" class="btn btn-primary" data-dismiss="modal">Cancel</button>
+						<button type="button" class="btn btn-success" id="confirmNewProjectBtn">Add Project</button>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- Navigation -->
+		<nav class="navbar navbar-default" role="navigation">
+			<div class="container-fluid">
+				<!-- Brand and toggle get grouped for better mobile display -->
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<a class="navbar-brand" href="/">StoryTime</a>
+				</div>
+
+				<!-- Collect the nav links, forms, and other content for toggling -->
+				<div class="collapse navbar-collapse" id="navbar-collapse">
+					<ul class="nav navbar-nav navbar-right">
+						<li><a href="/logout">Logout</a></li>
+					</ul>
+				</div><!-- /.navbar-collapse -->
+			</div><!-- /.container-fluid -->
+		</nav>
+
+		<!-- body -->
+		<div clas="container-fluid">
+			<div class="row">
+				<div class="col-xs-12 col-md-4 col-md-offset-4">
+					<div class="panel panel-primary">
+						<div class="panel-heading">
+							<h3 class="panel-title">Please select the project you would like to work on:</h3>
+						</div>
+						<div class="panel-body">
+							<div class="table-responsive">
+								<table class="table table-striped table-hover" id="projectSelectTable">
+									<tbody></tbody>
+								</table>
+							</div>
+							<a id="newProjectBtn" class="btn btn-success btn-xs btn-block">New Project</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<script src="js/jquery-2.1.1.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+		<script>
+			$(document).ready(function() {
+				$.ajax({
+					type: "GET",
+					url: "/projects",
+					dataType: "json",
+					data: {
+						"listAll": 1
+					},
+					success: function(data, textStatus, jqXHR) {
+						var rowTemplate = '<tr><td>{{ projname }}</td><td><a projID="{{ projid }}" class="btn btn-primary btn-xs btn-block selectButton">Select</a></td><td><a projID="{{ projid }}" class="btn btn-danger btn-xs btn-block deleteButton">Delete</a></td></tr>';
+						var tableBody = $('#projectSelectTable > tbody');
+						for(var pid in data) {
+							var row = rowTemplate.replace("{{ projname }}", data[pid].projname);
+							row = row.replace("{{ projid }}", data[pid].projid);
+							row = row.replace("{{ projid }}", data[pid].projid);
+							tableBody.append(row);
+						}
+
+						$('.selectButton').click(function(e) {
+							e.stopPropagation();
+							e.preventDefault();
+
+							$.ajax({
+								type: "POST",
+								url: "/projects",
+								dataType: "json",
+								data: {
+									"projid": $(e.target).attr('projID')
+								},
+								success: function(data, textStatus, jqXHR) {
+									window.location = '/';
+								},
+								error: function(data, textStatus, jqXHR) {
+									alert("error, see console");
+									console.log(data);
+								}
+							});
+						});
+
+						$('.deleteButton').click(function(e) {
+							e.stopPropagation();
+							e.preventDefault();
+
+							$('#deleteProjectID').val($(e.target).attr('projID'));
+							$('#deleteProjectModal').modal('show');
+						});
+					},
+					error: function(data, textStatus, jqXHR) {
+						alert("error, see console");
+						console.log(data);
+					}
+				});
+
+				$('#newProjectBtn').click(function(e) {
+					e.stopPropagation();
+					e.preventDefault();
+
+					$('#newProjectModal').on('shown.bs.modal', function(e) {
+						$('#newProjectTitle').focus();
+					});
+					$('#newProjectModal').modal('show');
+				});
+
+				$('#confirmNewProjectBtn').click(function(e) {
+					$('#newProjectForm').submit();
+				})
+
+				$('#newProjectForm').submit(function(e) {
+					e.stopPropagation();
+					e.preventDefault();
+
+					// make sure the form is filled in
+					if(typeof(String.prototype.trim) === "undefined") {
+						String.prototype.trim = function() {
+							return String(this).replace(/^\s+|\s+$/g, '');
+						};
+					}
+
+					if($('#newProjectTitle').val().trim() == "") {
+						$('#newProjectTitle').parent().parent().addClass("has-error");
+						return;
+					}
+					else {
+						$('#newProjectTitle').parent().parent().removeClass("has-error");
+					}
+
+					$.ajax({
+						url: '/projects',
+						type: 'PUT',
+						data: {
+							'projname': $('#newProjectTitle').val()
+						},
+						success: function(data, textStatus, jqXHR) {
+							window.location = '/';
+						},
+						error: function(data, textStatus, errorThrown) {
+							alert("error, see console");
+							console.log(data);
+						}
+					});
+				});
+
+				$('#confirmDeleteBtn').click(function(e) {
+					$('#deleteProjectForm').submit();
+				});
+
+				$('#deleteProjectForm').submit(function(e) {
+					e.stopPropagation();
+					e.preventDefault();
+
+					console.log("deleting project with id: " + $('#deleteProjectID').val());
+					$.ajax({
+						type: "DELETE",
+						url: "/projects" + '?' + $.param({"projid": $('#deleteProjectID').val()}),
+						dataType: "json",
+						success: function(data, textStatus, jqXHR) {
+							// it worked, refresh the page
+							window.location = '/';
+						},
+						error: function(data, textStatus, jqXHR) {
+							alert("error, see console");
+							console.log(data);
+						}
+					});
+				});
+			});
+		</script>
+	</body>
+</html>
