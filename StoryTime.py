@@ -11,9 +11,9 @@ from StoryTimeModules.Shots import Shots
 from StoryTimeModules.Upload import FileUpload
 from StoryTimeModules.Projects import Projects
 
-class DocBot(object):
+class StoryTime(object):
 	def __init__(self, sql):
-		super(DocBot, self).__init__()
+		super(StoryTime, self).__init__()
 		self.sql = sql
 
 		self.shots = Shots(sql)
@@ -125,7 +125,7 @@ if __name__ == '__main__':
 	cherrypy.config.update({'engine.autoreload.on': False})
 
 	# initialize the server
-	app = DocBot(sql)
+	app = StoryTime(sql)
 
 	# start the server
 	cherrypy.quickstart(app, '/', conf)
